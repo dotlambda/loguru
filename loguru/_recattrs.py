@@ -3,7 +3,7 @@ import sys
 import traceback
 from collections import namedtuple
 
-from better_exceptions_fork import ExceptionFormatter
+from ._better_exceptions import ExceptionFormatter
 
 loguru_traceback = namedtuple("loguru_traceback", ("tb_frame", "tb_lasti", "tb_lineno", "tb_next"))
 
